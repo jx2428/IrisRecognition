@@ -13,4 +13,4 @@ center: A list of all pupil centers of each image. Each pupil center is an eleme
 ### Logic 
 1. Apply bilateral filter to blur each image with the purpose to reduce noise.
 2. Project each image both horizontally and vertically and find the local minimum, which is notated by (X_p,Y_p) in the function. This is the aproximated pupil center because the local minimum is the darkest region.
-3. Create a 120 \times 120
+3. Create a 120 $\times$ 120
